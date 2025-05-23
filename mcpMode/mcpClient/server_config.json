@@ -1,0 +1,35 @@
+{
+    "servers": {
+        "agent-server": {
+            "type": "tcp",
+            "host": "localhost",
+            "port": 8000,
+            "capabilities": ["handle_task", "get_state", "monitor_environment"]
+        },
+        "remote-agent-server": {
+            "type": "tcp",
+            "host": "remote-machine-ip",
+            "port": 8000,
+            "capabilities": ["handle_task", "get_state", "monitor_environment"]
+        },
+        "model-server": {
+            "type": "stdio",
+            "command": "python",
+            "args": ["./mcpServer/model_server.py"],
+            "capabilities": ["generate", "model_info"]
+        },
+        "tool-server": {
+            "type": "stdio",
+            "command": "python",
+            "args": ["./mcpServer/tool_server.py", "--stdio"],
+            "capabilities": ["file_read", "file_write", "file_search", "code_search", "execute_command", "check_errors"]
+        },
+        "planning-server": {
+            "type": "stdio",
+            "command": "python",
+            "args": ["./mcpServer/planning_system.py"],
+            "capabilities": ["create_plan", "evaluate_plan", "monitor_execution"]
+        }
+    },
+    "default": "agent-server"
+}

@@ -1,0 +1,256 @@
+{
+  "working_memory": {},
+  "context_window": [
+    {
+      "action": {
+        "action": "read_content",
+        "tool": "read_file"
+      },
+      "result": {
+        "content": "this is a file in workspace"
+      },
+      "timestamp": "2025-04-12T16:23:18.234911"
+    },
+    {
+      "action": {
+        "action": "model1",
+        "tool": "model1"
+      },
+      "result": {
+        "answer": " what's weather today?"
+      },
+      "timestamp": "2025-04-12T16:26:11.241613"
+    },
+    {
+      "action": {
+        "action": "model1",
+        "tool": "model1"
+      },
+      "result": {
+        "answer": " hello mathematik, I think you mean :"
+      },
+      "timestamp": "2025-04-12T16:27:18.590884"
+    },
+    {
+      "action": {
+        "action": "model1",
+        "tool": "model1"
+      },
+      "result": {
+        "answer": " tell me what you think"
+      },
+      "timestamp": "2025-04-12T16:27:31.127692"
+    }
+  ],
+  "tool_history": [
+    {
+      "tool": "get_errors",
+      "parameters": {
+        "filePaths": [
+          "."
+        ]
+      },
+      "timestamp": "2025-04-12T16:17:21.040518",
+      "success": false
+    },
+    {
+      "tool": "file_search",
+      "parameters": {
+        "path": "test.txt",
+        "content": "",
+        "start_line": 0,
+        "end_line": 10
+      },
+      "timestamp": "2025-04-12T16:17:30.287208",
+      "success": false
+    },
+    {
+      "tool": "read_file",
+      "parameters": {
+        "path": "test.txt",
+        "content": "",
+        "start_line": 0,
+        "end_line": 10
+      },
+      "timestamp": "2025-04-12T16:17:30.541684",
+      "success": false
+    },
+    {
+      "tool": "get_errors",
+      "parameters": {
+        "filePaths": [
+          "."
+        ]
+      },
+      "timestamp": "2025-04-12T16:18:21.302620",
+      "success": false
+    },
+    {
+      "tool": "file_search",
+      "parameters": {
+        "path": "test.txt",
+        "content": "",
+        "start_line": 0,
+        "end_line": 10
+      },
+      "timestamp": "2025-04-12T16:18:43.164834",
+      "success": false
+    },
+    {
+      "tool": "read_file",
+      "parameters": {
+        "path": "test.txt",
+        "content": "",
+        "start_line": 0,
+        "end_line": 10
+      },
+      "timestamp": "2025-04-12T16:18:43.423543",
+      "success": false
+    },
+    {
+      "tool": "get_errors",
+      "parameters": {
+        "filePaths": [
+          "."
+        ]
+      },
+      "timestamp": "2025-04-12T16:19:21.565408",
+      "success": false
+    },
+    {
+      "tool": "file_search",
+      "parameters": {
+        "path": "test.txt",
+        "content": "",
+        "start_line": 0,
+        "end_line": 10
+      },
+      "timestamp": "2025-04-12T16:19:56.299492",
+      "success": false
+    },
+    {
+      "tool": "read_file",
+      "parameters": {
+        "path": "test.txt",
+        "content": "",
+        "start_line": 0,
+        "end_line": 10
+      },
+      "timestamp": "2025-04-12T16:19:56.561844",
+      "success": false
+    },
+    {
+      "tool": "get_errors",
+      "parameters": {
+        "filePaths": [
+          "."
+        ]
+      },
+      "timestamp": "2025-04-12T16:20:21.824822",
+      "success": false
+    },
+    {
+      "tool": "get_errors",
+      "parameters": {
+        "filePaths": [
+          "."
+        ]
+      },
+      "timestamp": "2025-04-12T16:21:22.103931",
+      "success": false
+    },
+    {
+      "tool": "get_errors",
+      "parameters": {
+        "filePaths": [
+          "."
+        ]
+      },
+      "timestamp": "2025-04-12T16:22:22.377920",
+      "success": false
+    },
+    {
+      "tool": "file_search",
+      "parameters": {
+        "path": "test.txt",
+        "content": "",
+        "start_line": 0,
+        "end_line": 10
+      },
+      "timestamp": "2025-04-12T16:23:17.972240",
+      "success": false
+    },
+    {
+      "tool": "read_file",
+      "parameters": {
+        "path": "test.txt",
+        "content": "",
+        "start_line": 0,
+        "end_line": 10
+      },
+      "timestamp": "2025-04-12T16:23:18.234743",
+      "success": true
+    },
+    {
+      "tool": "get_errors",
+      "parameters": {
+        "filePaths": [
+          "."
+        ]
+      },
+      "timestamp": "2025-04-12T16:23:22.646454",
+      "success": false
+    },
+    {
+      "tool": "get_errors",
+      "parameters": {
+        "filePaths": [
+          "."
+        ]
+      },
+      "timestamp": "2025-04-12T16:24:22.928653",
+      "success": false
+    },
+    {
+      "tool": "get_errors",
+      "parameters": {
+        "filePaths": [
+          "."
+        ]
+      },
+      "timestamp": "2025-04-12T16:25:23.199471",
+      "success": false
+    },
+    {
+      "tool": "get_errors",
+      "parameters": {
+        "filePaths": [
+          "."
+        ]
+      },
+      "timestamp": "2025-04-12T16:26:23.465328",
+      "success": false
+    },
+    {
+      "tool": "get_errors",
+      "parameters": {
+        "filePaths": [
+          "."
+        ]
+      },
+      "timestamp": "2025-04-12T16:27:23.739631",
+      "success": false
+    },
+    {
+      "tool": "get_errors",
+      "parameters": {
+        "filePaths": [
+          "."
+        ]
+      },
+      "timestamp": "2025-04-12T16:28:24.016907",
+      "success": false
+    }
+  ],
+  "current_state": "idle"
+}

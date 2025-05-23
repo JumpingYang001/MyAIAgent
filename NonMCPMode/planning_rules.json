@@ -1,0 +1,29 @@
+{
+  "task_patterns": {
+    "file_operations": {
+      "patterns": ["read", "write", "create", "delete", "file", "folder", "directory"],
+      "tools": ["file_search", "read_file", "write_file"],
+      "fallback": ["search_code"]
+    },
+    "code_analysis": {
+      "patterns": ["analyze", "find bugs", "errors", "issues", "lint"],
+      "tools": ["get_errors", "semantic_search"],
+      "fallback": ["grep_search"]
+    },
+    "model_interaction": {
+      "patterns": ["ask", "generate", "explain", "help", "what", "how", "why"],
+      "tools": ["model1"],
+      "fallback": ["search_code", "read_file"]
+    },
+    "git_operations": {
+      "patterns": ["commit", "push", "pull", "merge", "branch", "git"],
+      "tools": ["execute_command"],
+      "allowed_commands": ["git"]
+    }
+  },
+  "compound_tasks": {
+    "code_review": ["code_analysis", "model_interaction"],
+    "file_search": ["file_operations", "model_interaction"],
+    "bug_fixing": ["code_analysis", "model_interaction", "file_operations"]
+  }
+}

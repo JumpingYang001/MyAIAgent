@@ -1,0 +1,21 @@
+[model_cache]
+enabled = true
+max_size_mb = 100
+ttl_seconds = 3600
+
+[model_fallback]
+primary = "microsoft/DialoGPT-small"
+fallbacks = [
+    "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "microsoft/DialoGPT-medium"
+]
+
+[performance]
+max_concurrent_tasks = 5
+batch_size = 4
+request_timeout = 30
+
+[monitoring]
+check_interval_seconds = 60
+max_errors_before_fallback = 3
+health_check_enabled = true

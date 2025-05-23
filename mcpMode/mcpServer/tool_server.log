@@ -1,0 +1,28 @@
+2025-04-13 15:36:14.383 - tool_server - [INFO] - MainThread - Starting tool server on Windows 11
+2025-04-13 15:36:14.384 - tool_server - [INFO] - MainThread - Python version: 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]
+2025-04-13 15:36:14.384 - tool_server - [INFO] - MainThread - Working directory: c:\MyAgent
+2025-04-13 15:36:14.384 - tool_server - [INFO] - MainThread - Parsed command line arguments: {'host': 'localhost', 'port': 8000, 'stdio': True}
+2025-04-13 15:36:14.384 - tool_server - [INFO] - MainThread - Configuring stdio mode
+2025-04-13 15:36:14.384 - tool_server - [DEBUG] - MainThread - Configured binary mode for Windows
+2025-04-13 15:36:14.385 - asyncio - [DEBUG] - MainThread - Using proactor: IocpProactor
+2025-04-13 15:36:14.385 - tool_server - [INFO] - MainThread - Initializing ToolServer instance
+2025-04-13 15:36:14.385 - tool_server - [INFO] - MainThread - Registered 7 methods: initialize, file_read, file_write, file_search, code_search, execute_command, check_errors
+2025-04-13 15:36:14.385 - tool_server - [DEBUG] - MainThread - Server instance created in memory at 0x2b972dda120
+2025-04-13 15:36:14.385 - tool_server - [INFO] - MainThread - Created ToolServer instance
+2025-04-13 15:36:14.386 - tool_server - [DEBUG] - MainThread - Server start time set to 68992.3515217
+2025-04-13 15:36:14.386 - tool_server - [INFO] - MainThread - Received initialize request
+2025-04-13 15:36:14.386 - tool_server - [DEBUG] - MainThread - Initialize params: None
+2025-04-13 15:36:14.386 - tool_server - [DEBUG] - MainThread - Setting initialized flag
+2025-04-13 15:36:14.386 - tool_server - [DEBUG] - MainThread - Preparing capabilities response
+2025-04-13 15:36:14.386 - tool_server - [INFO] - MainThread - Server initialized with capabilities: {'capabilities': {'serverType': 'tool-server', 'version': '1.0.0', 'supportedMethods': ['initialize', 'file_read', 'file_write', 'file_search', 'code_search', 'execute_command', 'check_errors']}}
+2025-04-13 15:36:14.386 - tool_server - [DEBUG] - MainThread - Returning initialize response
+2025-04-13 15:36:14.386 - tool_server - [INFO] - MainThread - Server initialization complete
+2025-04-13 15:36:14.386 - tool_server - [INFO] - MainThread - Starting server in stdio communication mode
+2025-04-13 15:36:14.386 - tool_server - [INFO] - MainThread - Request #1 received: {"jsonrpc": "2.0", "method": "initialize", "params": {}, "id": 1}
+2025-04-13 15:36:14.386 - tool_server - [INFO] - MainThread - Received initialize request
+2025-04-13 15:36:14.386 - tool_server - [DEBUG] - MainThread - Initialize params: {}
+2025-04-13 15:36:14.386 - tool_server - [DEBUG] - MainThread - Setting initialized flag
+2025-04-13 15:36:14.386 - tool_server - [DEBUG] - MainThread - Preparing capabilities response
+2025-04-13 15:36:14.386 - tool_server - [INFO] - MainThread - Server initialized with capabilities: {'capabilities': {'serverType': 'tool-server', 'version': '1.0.0', 'supportedMethods': ['initialize', 'file_read', 'file_write', 'file_search', 'code_search', 'execute_command', 'check_errors']}}
+2025-04-13 15:36:14.386 - tool_server - [DEBUG] - MainThread - Returning initialize response
+2025-04-13 15:36:14.386 - tool_server - [INFO] - MainThread - Response sent for request #1
