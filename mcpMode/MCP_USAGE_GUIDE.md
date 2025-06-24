@@ -823,6 +823,3 @@ These commands can be used after connecting to the tool server using:
 ```
 
 Each command will return its results in a formatted panel, with success messages in green and error messages in red.
-
-### 8. Tool Server Response Format
-// ...existing code...
